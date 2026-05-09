@@ -10,7 +10,7 @@ function Dashboard() {
   if (!token) return <Navigate to="/login" />
 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/dashboard', {
+    axios.get(`${import.meta.env.VITE_API_URL}/api/auth/register`, {
       headers: { Authorization: `Bearer ${token}` }
     })
     .then(res => setStats(res.data))
