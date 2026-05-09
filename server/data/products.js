@@ -1,0 +1,68 @@
+const products = [
+  {
+    name: "Whey Protein 5lb – Chocolate",
+    description: "High-quality whey protein isolate. 25g of protein per serving. Ideal for muscle recovery post-workout.",
+    price: 59.99,
+    category: "supplement",
+    stock: 50,
+    image: "https://images.unsplash.com/photo-1593095948071-474c5cc2989d?w=500",
+  },
+  {
+    name: "Creatine Monohydrate 300g",
+    description: "Pure micronized creatine monohydrate. Increases strength and explosive performance.",
+    price: 24.99,
+    category: "supplement",
+    stock: 80,
+    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500",
+  },
+  {
+    name: "Pre-Workout Extreme 30 servings",
+    description: "Maximum energy formula with caffeine, beta-alanine and citrulline. Hit the gym harder.",
+    price: 39.99,
+    category: "supplement",
+    stock: 40,
+    image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=500",
+  },
+  {
+    name: "BCAA 2:1:1 Amino Acids 400g",
+    description: "Essential branched-chain amino acids to prevent muscle catabolism during training.",
+    price: 29.99,
+    category: "supplement",
+    stock: 60,
+    image: "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?w=500",
+  },
+  {
+    name: "IronForge Training Shorts",
+    description: "Lightweight performance shorts with moisture-wicking fabric. Built for intense sessions.",
+    price: 34.99,
+    category: "clothing",
+    stock: 30,
+    image: "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=500",
+  },
+  {
+    name: "Compression Training Tee",
+    description: "Fitted compression shirt with anti-odor technology. Move without restriction.",
+    price: 29.99,
+    category: "clothing",
+    stock: 45,
+    image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500",
+  },
+  {
+    name: "IronForge Gym Hoodie",
+    description: "Premium heavyweight hoodie for cold sessions or post-workout recovery.",
+    price: 54.99,
+    category: "clothing",
+    stock: 25,
+    image: "https://images.unsplash.com/photo-1556821840-3a63f15732ce?w=500",
+  },
+  {
+    name: "Lifting Belt – Leather 4 inch",
+    description: "Full-grain leather belt for maximum lumbar support on heavy compound lifts.",
+    price: 49.99,
+    category: "clothing",
+    stock: 20,
+    image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=500",
+  },
+];
+
+module.exports = products;
